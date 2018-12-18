@@ -293,7 +293,7 @@ fn evaluate_state(state: &State) -> i128
 
 fn main()
 {
-   let input_path = "./data/input.txt";
+   let input_path = "./data/challenge.txt";
    let (initial_state, mut rules) = input_data(input_path);
 
    // short steps
@@ -303,7 +303,7 @@ fn main()
    println!("score after short time : {}", score_after_short);
 
    // long steps
-   let long_time = 1_000_000_000_000_000_000_000_000_000_000_000_000; // 50_000_000_000
+   let long_time = 50_000_000_000; // 1_000_000_000_000_000_000_000_000_000_000_000_000
    let state_after_long = hash_next_n_state(&initial_state, &mut rules, long_time);
    let score_after_long = evaluate_state(&state_after_long);
    println!("score after long time : {}", score_after_long);

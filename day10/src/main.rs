@@ -130,7 +130,7 @@ fn find_alignement(mut points: Vec<Point>, speeds: &[Point])
 
 fn main()
 {
-   let input_path = "./data/input.txt";
+   let input_path = "./data/challenge.txt";
    let (points, speeds) = input_data(input_path);
    find_alignement(points, &speeds);
 }
