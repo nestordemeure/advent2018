@@ -1,0 +1,1 @@
+{"rustc":11383346243573000181,"features":"[]","target":7127940402259190118,"profile":5060393583489210841,"path":1036222786711178230,"deps":[["scan_fmt v0.1.3","scan_fmt",1771446071764415938]],"local":[{"MtimeBased":[[1545214506,710745585],".fingerprint/day19-507900cf39a7b7ff/dep-bin-day19-507900cf39a7b7ff"]}],"rustflags":[],"edition":"Edition2018"}
